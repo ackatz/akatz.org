@@ -1,22 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Andrew Katz</title>
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit-icons.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
   </head>
+  <div class="uk-container uk-container-xsmall">
   <body>
-
   <center><h1>Andrew Katz</h1>
+        <nav class="uk-navbar" uk-navbar>
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="https://www.linkedin.com/in/ac-katz/">LinkedIn</a></li>
+                <li class="uk-active"><a href="https://github.com/ackatz">GitHub</a></li>        
+                <li class="uk-active"><a href="#">Projects</a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="https://securitynewsletter.herokuapp.com">SecurityNewsletter</a></li>
+                    </ul>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
     <p>I am a multidisciplinary information security professional currently based in Irvine, CA.</p>
     <p>Contact: andrew(at)akatz.org</p>
-    <p>
-      <a href="https://www.linkedin.com/in/ac-katz/">LinkedIn</a> | 
-      <a href="https://github.com/ackatz">GitHub</a>
-    </p>
-    <p>Copyright © 2022 Andrew Katz</p>
+    <center><p>Copyright © 2022 <a href="https://akatz.org">Andrew Katz</a></center></p>
   </center>
   </body>
 </html>
